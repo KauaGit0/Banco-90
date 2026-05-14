@@ -83,11 +83,11 @@ a {
     height: 500px;
 }
 
-.formaPag{
-gap: 40px;
-margin-left: 10%;
-display: flex;
-align-items: center;
+.formaPag {
+    gap: 40px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -103,6 +103,127 @@ align-items: center;
 }
 
 
+
+
+.ParteCinza,
+.tituloCinza {
+    color: white;
+    background-color: #302727;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.ImgCinza {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.textoCinza {
+    margin-left: 20px;
+    height: 200px;
+    width: 900px;
+}
+
+.h1Cinza {
+    height: 20px;
+    width: 1000%;
+}
+
+.imgBranca {
+    gap: 50px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imgB {
+    border-radius: 3px;
+    display: flex;
+    gap: 40px;
+}
+
+.h1Branco {
+    height: 10%;
+    width: 40%;
+}
+
+#imgBranco {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+#tabelaSantander{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.ParteCima, .ParteEsquerda{
+    background-color: rgb(184, 2, 2);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#conteudo {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px  10px gray;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#tabelaSantander #conteudo h1{
+    height: 100px;
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table tr td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+table tr th{
+    background-color: #ba2d2d;
+    color: white;
+
+
+
+}
+.branco{
+    background-color: white;
+}
+#colors {
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
+
 footer {
     background-color: rgb(182, 45, 45);
     display: flex;
@@ -114,25 +235,5 @@ footer {
 .rodape {
     width: 100%;
     text-align: center;
-}
-
-.ParteCinza{
-color: white;
-background-color: #302727;
-padding: 20px;
-}
-
-.ImgCinza{
-width: 40%;
-display: flex;
-justify-content: end;
-flex-direction: row;
-}
-
-#colors {
-    background-color: #302727;
-    background-color: #ba2d2d;
-    background-color: #f2511b;
-    background-color: #f2861b;
-    background-color: #c7c730;
+    color: white;
 }
